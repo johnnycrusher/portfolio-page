@@ -6,12 +6,13 @@
   <title>John Huynh Personal Portfolio Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
     crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
   <!-- NAV bar-->
-  <nav class="navbar navbar-expand-lg navbar-light navigation-color">
+  <nav class="navbar navbar-expand-lg navbar-light navigation-color fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">John Huynh</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-expanded="false"
@@ -21,10 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Portfolio</a>
@@ -39,15 +40,38 @@
   <!--Main Content-->
   <div class="container">
     <div class="row">
-      <div class="col-12 bg-danger">
-        <p></p>
-
+      <div class="col-12 bg-light mt-5" style='min-height:400px' id="home">
+        <h1 class="text-center text-primary text-dark py-5"> John Huynh</h1>
+        <div class="col-xs-12 offset-xs-0 col-sm-12 offset-sm-1 col-md-12 offset-md-2 col-lg-12 offset-lg-3 col-xl-12 offset-xl-3" >
+          <a class="btn btn-primary btn-lg px-4" href="https://github.com/johnnycrusher" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+          <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/john-huynh-632a7749/"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a class="btn btn-primary btn-lg" href="https://www.freecodecamp.org/johnnycrusher" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true" ></i> Free Code Camp</a>
+        </div>
       </div>
+      <div class ="col-7 bg-danger" style='min-height:700px' id="about">
+        <h2 class="mt-5">John Huynh</h2>
+        <p> I'm a self taught web developed with a passion to designed websites and build them. This would include personal profolio pages, e-commerce websites or buisness websites. I also have an intrest in software development and have a vast amount of skills in software development.</p>
+        <ul>Languages and Frameworks:
+          <li>C#</li>
+          <li>C</li>
+          <li>Java 8</li>
+          <li>HTML 5</li>
+          <li>CSS3</li>
+          <li>Python</li>
+          <li>Bootstrap 4</li>
+          <li>JavaScript</li>
+        </ul>
+        <ul>Tools &amp Enterprise:
+          <li>Git</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </div>
+      <div class="col-5 bg-danger" style='min-height:700px'>
+        <img src="images/me.jpg" class="img-fluid rounded-circle mt-5">
+      </div>
+      <div class="col-12 bg-warning" style='min-height:600px'></div>
     </div>
   </div>
-
-
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
