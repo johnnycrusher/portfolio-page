@@ -7,6 +7,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
     crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Add Material font (Roboto) and Material icon as needed
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    -->
+    <!--
+    <link href="stylesheets/material.min.css" rel="stylesheet">
+    -->
   <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
@@ -41,7 +49,7 @@
   <!--Home Section-->
   <div class="container">
     <div class="row">
-      <div class="col-12 bg-light mt-5 pt-5" style='min-height:400px' id="home">
+      <div class="col-12 mt-5 pt-5" style='min-height:400px' id="home">
         <h1 class="text-center text-primary text-dark pt-5"> John Huynh</h1>
         <hr class="star-bright">
         <p class="text-center">Web Developer - Software Developer - User Experience Designer </p>
@@ -52,7 +60,7 @@
         </div>
       </div>
       <!-- About Section-->
-      <div class ="col-7 pt-5 bg-danger" id="about" style='min-height:700px'>
+      <div class ="col-7 pt-5 about-section" id="about" style='min-height:700px'>
         <h2>John Huynh</h2>
         <p> I'm a self taught web developed with a passion to designed websites and build them. This would include personal profolio pages, e-commerce websites or buisness websites. I also have an intrest in software development and have a vast amount of skills in software development.</p>
         <ul>Languages and Frameworks:
@@ -70,7 +78,7 @@
           <li>Responsive Web Design</li>
         </ul>
       </div>
-      <div class="col-5 bg-danger" style='min-height:700px'>
+      <div class="col-5 about-section" style='min-height:700px'>
         <img src="images/me.jpg" class="img-fluid rounded-circle mt-5">
       </div>
       <!-- Portfolio Section-->
@@ -98,29 +106,28 @@
         <h2 class="text-center pt-5 mt-5 pb-0"> Contact Me</h2>
         <hr class="star-bright">
         <div class="row">
-        <div class="col-6">
-          <form>
-            <div class="form-group">
-              <label>Name:</label>
-              <input type="text" class="form-control input-box" id="inputName" placeholder="Enter Name">
-            </div>
+          <div class="col-6">
+            <form>
+              <div class="form-group">
+                <label>Name:</label>
+                <input type="text" class="form-control input-box" id="inputName" placeholder="Enter Name">
+              </div>
               <div class="form-group">
                 <label>Email Address:</label>
-                <input type="email" class="form-control input-box" id="inputEmail" placeholder="Enter Email Address" >
+                <input type="email" class="form-control input-box" id="inputEmail" placeholder="Enter Email Address">
               </div>
               <div class="form-group">
                 <label>Message:</label>
                 <textarea class="form-control" id="inputMessage" rows="5" cols="50" placeholder="Message"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+            </form>
+          </div>
+          <div class="col-6">
+            <h3> Want to get in touch with me? Whether it may be to ask for help on how to design and build a webpage, to ask for my
+              resume, or to found other intresting things about me! feel free to leave me a message.</h3>
+          </div>
         </div>
-        <div class="col-6">
-          <h3> Want to get in touch with me? Whether it may be to ask for help on how to design and build a webpage, to ask for my resume, or to found other intresting things about me! feel free to leave me a message.</h3>
-        </div>
-      </div>
-        </div>
-
       </div>
     </div>
   </div>
@@ -130,5 +137,9 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
     crossorigin="anonymous"></script>
+    <!-- Then Material JavaScript on top of Bootstrap JavaScript
+    <script src="/javascript/material.min.js"></script>
+    -->
+    <script src=""></script>
 </body>
 </html>

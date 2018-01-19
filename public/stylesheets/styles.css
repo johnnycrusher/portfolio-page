@@ -38,4 +38,20 @@ hr.star-bright, hr.star-dark {
     border-top:solid 5px;
     text-align:center;
 }
+#home{
+    background-image: url(../images/circles-light.png);
+    background-repeat: repeat-x;
+}
+.about-section{
+    background-image: url(../images/cloudy-day.png);
+    background-repeat: repeat;
+}
+#portfolio{
+    background-image: url(../images/congruent_pentagon.png);
+    background-repeat: repeat;
+}
+#contact{
+    background-image: url(../images/chruch.png);
+    background-repeat:repeat;
+}
 
