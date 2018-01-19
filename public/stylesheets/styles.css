@@ -7,3 +7,35 @@ body{
 p{
     font-size:20px;
 }
+.portfolio-img{
+    height:49%;
+    width:49%;
+}
+.left-image{
+    display:inline-block;
+    text-align: center;
+    width: 49%;
+}
+.right-image{
+    display:inline-block;
+    text-align: center;
+    width: 49%;
+}
+.figure-text{
+    width:49%;
+}
+.input-box{
+    width:50%;
+}
+#inputMessage{
+    width: 75%;
+}
+hr.star-bright, hr.star-dark {
+    margin:20px auto 20px;
+    padding:0;
+    max-width:50%;
+    border:0;
+    border-top:solid 5px;
+    text-align:center;
+}
+

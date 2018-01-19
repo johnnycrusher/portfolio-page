@@ -28,28 +28,32 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--Main Content-->
+<!--Main Content-->
+  <!--Home Section-->
   <div class="container">
     <div class="row">
-      <div class="col-12 bg-light mt-5" style='min-height:400px' id="home">
-        <h1 class="text-center text-primary text-dark py-5"> John Huynh</h1>
+      <div class="col-12 bg-light mt-5 pt-5" style='min-height:400px' id="home">
+        <h1 class="text-center text-primary text-dark pt-5"> John Huynh</h1>
+        <hr class="star-bright">
+        <p class="text-center">Web Developer - Software Developer - User Experience Designer </p>
         <div class="col-xs-12 offset-xs-0 col-sm-12 offset-sm-1 col-md-12 offset-md-2 col-lg-12 offset-lg-3 col-xl-12 offset-xl-3" >
           <a class="btn btn-primary btn-lg px-4" href="https://github.com/johnnycrusher" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
           <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/john-huynh-632a7749/"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
           <a class="btn btn-primary btn-lg" href="https://www.freecodecamp.org/johnnycrusher" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true" ></i> Free Code Camp</a>
         </div>
       </div>
-      <div class ="col-7 bg-danger" style='min-height:700px' id="about">
-        <h2 class="mt-5">John Huynh</h2>
+      <!-- About Section-->
+      <div class ="col-7 pt-5 bg-danger" id="about" style='min-height:700px'>
+        <h2>John Huynh</h2>
         <p> I'm a self taught web developed with a passion to designed websites and build them. This would include personal profolio pages, e-commerce websites or buisness websites. I also have an intrest in software development and have a vast amount of skills in software development.</p>
         <ul>Languages and Frameworks:
           <li>C#</li>
@@ -69,7 +73,55 @@
       <div class="col-5 bg-danger" style='min-height:700px'>
         <img src="images/me.jpg" class="img-fluid rounded-circle mt-5">
       </div>
-      <div class="col-12 bg-warning" style='min-height:600px'></div>
+      <!-- Portfolio Section-->
+      <div class="col-12 bg-warning" id="portfolio" style='min-height:800px'>
+        <h2 class="text-center pt-5 mt-5">Portfolio</h2>
+        <div class="col-12">
+          <a href="https://codepen.io/JohnnyCrusher/full/zpmNew/" target="_blank">
+            <img src="images/ElonTribute.PNG" class="img-fluid portfolio-img py-3"></a>
+          <img src="images/WSJ Archive.PNG" class="img-fluid portfolio-img">
+          <span class="left-image text-dark"> Elon Musk Tribute Website (BootStrap4, HTML5, CSS)</span>
+          <span class="right-image text-dark">WSJ Technology News Archive (Python, HTML5, CSS)</span>
+          <!-- Uncomment When adding more than 1 entry
+          <img src="images/WebsiteFor102.PNG" class="img-fluid portfolio-img">
+          <span class="left-image"> Home Survaliance System (Python, HTML5, CSS, Node.JS)</span>
+          -->
+        <figure class="figure">
+          <img src="images/WebsiteFor102.PNG" class="figure-img img-fluid rounded portfolio-img">
+          <figcaption class="figure-caption text-dark figure-text text-center">Home Survaliance System (Python, HTML5, CSS, Node.JS, OpenCV)</figcaption>
+        </figure> 
+        </div>
+      </div>
+
+      <!-- Contact Section-->
+      <div class="col-12 bg-info" id="contact" style='min-height:800px'>
+        <h2 class="text-center pt-5 mt-5 pb-0"> Contact Me</h2>
+        <hr class="star-bright">
+        <div class="row">
+        <div class="col-6">
+          <form>
+            <div class="form-group">
+              <label>Name:</label>
+              <input type="text" class="form-control input-box" id="inputName" placeholder="Enter Name">
+            </div>
+              <div class="form-group">
+                <label>Email Address:</label>
+                <input type="email" class="form-control input-box" id="inputEmail" placeholder="Enter Email Address" >
+              </div>
+              <div class="form-group">
+                <label>Message:</label>
+                <textarea class="form-control" id="inputMessage" rows="5" cols="50" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-6">
+          <h3> Want to get in touch with me? Whether it may be to ask for help on how to design and build a webpage, to ask for my resume, or to found other intresting things about me! feel free to leave me a message.</h3>
+        </div>
+      </div>
+        </div>
+
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
