@@ -27,6 +27,10 @@ p{
 .input-box{
     width:50%;
 }
+.skillsTable{
+    display: flex;
+    justify-content: center;
+}
 #inputMessage{
     width: 75%;
 }
@@ -42,10 +46,7 @@ hr.star-bright, hr.star-dark {
     background-image: url(../images/circles-light.png);
     background-repeat: repeat-x;
 }
-.about-section{
-    background-image: url(../images/cloudy-day.png);
-    background-repeat: repeat;
-}
+
 #portfolio{
     background-image: url(../images/congruent_pentagon.png);
     background-repeat: repeat;
@@ -53,5 +54,10 @@ hr.star-bright, hr.star-dark {
 #contact{
     background-image: url(../images/chruch.png);
     background-repeat:repeat;
+}
+#about{
+    background-image: url(../images/cloudy-day.png);
+    background-repeat: repeat;
+    margin: 0px;
 }
 
